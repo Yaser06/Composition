@@ -1,0 +1,12 @@
+Composition nedir?
+Bir classý olusturduktan sonra baska bir class icerisinde kullanmamýzý saglayan yapiya composition denir.
+Bu sayede her kodlamada ayný kodu yazmak zorunda kalmayacak ve olusabilecek kod kirliliginin önüne gecmis olacaksiniz.
+
+
+Composition da sahiplik iliþkisi vardir. Bizim bir masaüstü bilgisayarimizin oldugunu düsünelim. Bu bilgisayari 
+olustururken kasa , monitor , anakart , ram vs. aliyoruz. Tüm bunlari birleþtirerek bir bilgisayar ortaya cikariyoruz. 
+Bu bilgisayari OOP ile tasarlayacagimizi düsünürsek bu bilgisayar objesinin icinde aslinda bir tane kasa objesi , 
+bir tane anakart objesi , bir tane ram objesi , bir tane monitor objesi vs. olacak.Yani bunlar birleserek bir tane
+ bilgisayar objesi olusturuyorlar. Compositionun tam olarak anlami budur.
+ 
+ Örnegimizi inceleyerek daha iyi bir baglanti kurabilirsiniz.
